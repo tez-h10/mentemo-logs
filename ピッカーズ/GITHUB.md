@@ -1,47 +1,42 @@
-# GitHub に上げる手順
+# GitHub（mentemo logs）へのプッシュ手順
 
-このフォルダはすでに **git リポジトリ**になっています（初回コミット済み）。
+リポジトリは **~/Desktop/AI** がルートです。リポジトリ名: **mentemo logs**（URL では `mentemo-logs`）。
 
-## 1. GitHub で新しいリポジトリを作る
+## 1. GitHub でリポジトリを作る
 
-1. [GitHub](https://github.com/new) で **New repository** を開く
-2. リポジトリ名を入力（例: `pickers` または `ピッカーズ`）
-3. **Public** を選択（Private でも可）
-4. **README や .gitignore は追加しない**（ローカルに既にあるため）
-5. **Create repository** をクリック
+1. [GitHub New repository](https://github.com/new) を開く
+2. リポジトリ名: **mentemo-logs**
+3. Public / Private を選択（README 等は追加しない）
+4. **Create repository** をクリック
 
 ## 2. リモートを追加してプッシュ
 
-GitHub で表示される「…or push an existing repository from the command line」のコマンドを実行します。
-
 ```bash
-cd /Users/user/AI/ピッカーズ
-git remote add origin https://github.com/<あなたのユーザー名>/<リポジトリ名>.git
+cd ~/Desktop/AI
+git remote add origin https://github.com/<ユーザー名>/mentemo-logs.git
 git push -u origin main
 ```
 
-または SSH を使う場合:
+SSH の場合:
 
 ```bash
-git remote add origin git@github.com:<あなたのユーザー名>/<リポジトリ名>.git
+git remote add origin git@github.com:<ユーザー名>/mentemo-logs.git
 git push -u origin main
 ```
 
-## GitHub CLI を使う場合
-
-`gh` が入っていれば、リポジトリ作成とプッシュをまとめて実行できます。
+## GitHub CLI の場合
 
 ```bash
-cd /Users/user/AI/ピッカーズ
-gh repo create pickers --public --source=. --push
+cd ~/Desktop/AI
+gh repo create mentemo-logs --public --source=. --push
 ```
 
 ---
 
-以降、内容を更新したら以下で GitHub に反映できます。
+## 今後の更新
 
 ```bash
-cd /Users/user/AI/ピッカーズ
+cd ~/Desktop/AI
 git add .
 git commit -m "施策ログを更新"
 git push
