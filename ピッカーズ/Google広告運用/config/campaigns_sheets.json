@@ -1,0 +1,20 @@
+{
+  "更新日": "2025-02-24",
+  "説明": "キャンペーンごとの数値をスプシの _RAW_ シートへ出力するGAS用設定",
+  "集計開始日": "20251201",
+  "キャンペーン一覧": ["LT00175", "LT00176", "LT00177"],
+  "シート名": "_RAW_",
+  "キャンペーン別スプレッドシートID": {
+    "LT00175": "1pQ4FlTW0s8Df2kvp4PUr5sr39PMCKwPuKdtrmpD5CR0",
+    "LT00176": "1KuOFlL8KGS-c1CJF78gC5z4jiZOsYsaa9Clo9av31Qw",
+    "LT00177": "1LoMxh920x_92aS71njG75f1ghxLVjqK5iMoSdIicOVg"
+  },
+  "レポート項目": [
+    "segments.date",
+    "metrics.impressions",
+    "metrics.clicks",
+    "metrics.cost_micros",
+    "metrics.conversions"
+  ],
+  "クエリ条件": "campaign.name LIKE \"<キャンペーンID>%\""
+}
