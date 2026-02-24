@@ -1,0 +1,14 @@
+---
+description: 会社名・SSID・LTID・LP URL などの検索質問は Google広告運用 の決まったファイルを参照して即答する
+globs: "**/*"
+alwaysApply: true
+---
+
+# 検索質問の参照先（即答用）
+
+会社名・SSID・LTID・エリア・商材・LP URL などを聞かれたら、以下を参照して即答する。
+
+- **会社名 ⇔ SSID ⇔ LTID・エリア・商材**: Google広告運用/SSID一覧.md または Google広告運用/config/ssid_ltid_mapping.json
+- **各社の LP URL（昭和・清亀など）**: Google広告運用/LP移行方針.md
+
+「SSID 昭和」「昭和のLP」などの短い質問には、上記ファイルを開いて答える。

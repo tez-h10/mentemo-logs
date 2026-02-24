@@ -1,6 +1,6 @@
 # SSID・会社一覧（即参照用）
 
-**使い方**: ブラウザやエディタで「会社名」や「SSID」を検索（Ctrl+F / Cmd+F）すると、該当行がすぐ出ます。  
+**使い方**: ブラウザやエディタで「会社名」や「SSID」を検索（Ctrl+F / Cmd+F）すると、該当行がすぐ出ます。例: 「昭和」で検索 → SS00001。  
 元データ: [config/ssid_ltid_mapping.json](config/ssid_ltid_mapping.json)
 
 ---
