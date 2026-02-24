@@ -13,6 +13,12 @@
       "流れ": "キャンペーン/訴求→問い合わせ/予約"
     }
   ],
+  "LP一覧": {
+    "カーリース_愛知": "https://lp.carcare.jp/ezaki/aichi/carlease",
+    "Keeper_名古屋市": "https://lp.carcare.jp/ezaki/nagoya/coating",
+    "Keeper_豊橋市": "https://lp.carcare.jp/ezaki/toyohashi/coating",
+    "Keeper_豊田市": "https://lp.carcare.jp/ezaki/toyota/coating"
+  },
   "進行中施策": {
     "カーリース": {
       "論点": "低価格訴求だとクリックは伸びるが与信NG層が混ざりやすい",
