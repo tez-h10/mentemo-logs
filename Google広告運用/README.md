@@ -12,6 +12,7 @@ Google広告のキャンペーン別数値を **Googleスプレッドシート**
 | **config/campaigns_sheets.json** | キャンペーンID・スプシID対応（南関東3キャンペーン等） |
 | **config/会社別_sheet_雛形.json** | 会社別スプシ設定の雛形（コピーしてID・LTIDを埋める） |
 | **config/清亀石油_sheet.json** | 清亀石油（朝霞・車検）用スプシ設定 |
+| **[LP移行方針.md](LP移行方針.md)** | 全LPをcarcarelpへ移行する方針（ピッカーズ・JW除く）。昭和から着手 |
 | **script/exportGLToSheet_雛形.gs** | GL→スプシ1社用のGAS雛形（定数だけ差し替えて使う） |
 | **script/exportCampaignReportToSheet.gs** | 複数キャンペーン一括出力（南関東用） |
 
