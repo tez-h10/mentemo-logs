@@ -1,0 +1,10 @@
+.DS_Store
+*.pdf
+*.log
+.env
+.env.*
+venv_lib/
+__pycache__/
+*.pyc
+.venv/
+node_modules/
