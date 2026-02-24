@@ -19,11 +19,11 @@
 
 | エリア | LTID | URL |
 |--------|------|-----|
-| 有明 | LT00004 | https://lp.carcare.jp/showa/ariake/coating |
-| 八潮南 | LT00006 | https://lp.carcare.jp/showa/yashio/coating |
-| 相模原南台 | LT00005 | https://lp.carcare.jp/showa/sagamihara/coating |
-| 用賀中町 | LT00041 | https://lp.carcare.jp/showa/yoga/coating |
-| 辻堂太平台 | LT00007 | https://lp.carcare.jp/showa/tsujido/coating |
+| 有明 | LT00004 | https://lp.carcare.jp/showa/ariake/ariake/coating |
+| 八潮南 | LT00006 | https://lp.carcare.jp/showa/yashio/yashio/coating |
+| 相模原南台 | LT00005 | https://lp.carcare.jp/showa/sagamihara/sagamihara/coating |
+| 用賀中町 | LT00041 | https://lp.carcare.jp/showa/yoga/yoga/coating |
+| 辻堂太平台 | LT00007 | https://lp.carcare.jp/showa/tsujido/tsujido/coating |
 
 ※ 地名のローマ字（例: 八潮→yashio）は読み間違えやすい。今後エリア別URLを増やすときは **Gemini 等で地名読みを確認**するとよい。
 
@@ -33,4 +33,4 @@
 
 | 会社 | 例 |
 |------|-----|
-| 清亀石油 | https://lp.carcare.jp/kiyokame/asaka/asaka/shaken |
+| 清亀石油（朝霞・車検） | https://lp.carcare.jp/kiyokame/asaka/asaka/shaken |
