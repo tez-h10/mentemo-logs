@@ -1,6 +1,6 @@
 /**
- * ピッカーズ Google広告：キャンペーン別数値をスプレッドシートへ出力
- * 運用: campaigns_sheets.json のキャンペーン・シートIDに対応
+ * 会社共通：キャンペーン別数値をスプレッドシートへ出力（南関東3キャンペーン等）
+ * 運用: config/campaigns_sheets.json のキャンペーン・シートIDに対応
  */
 const startedAt = '20251201';
 const campaigns = ['LT00175', 'LT00176', 'LT00177'];
