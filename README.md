@@ -15,6 +15,7 @@
 
 ## よく使う検索
 
+- **全案件のタスク一覧（こっちがボール）**: [タスク一覧.md](./タスク一覧.md)
 - **会社名 → SSID / SSID → 会社名**: [Google広告運用/SSID一覧.md](./Google広告運用/SSID一覧.md) を開いて検索（Ctrl+F / Cmd+F）
 - **LP URL（昭和・清亀など）**: [Google広告運用/LP移行方針.md](./Google広告運用/LP移行方針.md)
 
