@@ -19,7 +19,7 @@ Google広告のキャンペーン別数値を **Googleスプレッドシート**
 
 | ID | 対応 |
 |----|------|
-| **SSID** | 会社に対応（マスタは config/ssid_ltid_mapping.json） |
+| **SSID** | 会社に対応。**即参照**: [SSID一覧.md](SSID一覧.md)（会社名・SSIDで検索→LTID・エリア・商材）。元データ: config/ssid_ltid_mapping.json |
 | **LTID** | リスティング広告のキャンペーン（エリア＋商材が紐付く） |
 
 ## 雛形の使い方（会社別 GL→スプシ）
