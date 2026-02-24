@@ -1,0 +1,20 @@
+{
+  "更新日": "2026-02-24",
+  "説明": "メール送付先（先方アドレス）の一覧。ログにはここへのキー参照のみ書く。",
+  "一覧": {
+    "YouTube報告_松田様": ["k-matsuda@picars.co.jp"],
+    "地域別LP電話着信数ヒアリング": [
+      "ezaki@homenetcars.co.jp",
+      "hachisuka@homenetcars.co.jp",
+      "ohnishi@picars.co.jp",
+      "imamura@picars.co.jp",
+      "m-kasai@homenetcars.co.jp",
+      "fujita@picars.co.jp",
+      "k-hyouda@homenetcars.co.jp",
+      "haryu@picars.co.jp",
+      "k-matsuda@picars.co.jp",
+      "adachi@carnet.co.jp",
+      "danjo@carnet.co.jp"
+    ]
+  }
+}
