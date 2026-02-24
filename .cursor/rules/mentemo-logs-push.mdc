@@ -1,19 +1,19 @@
 ---
-description: mentemo logs 更新後は必ず git push まで実行する
-globs: ピッカーズ/**/*
-alwaysApply: false
+description: このリポジトリで変更を加えたら、作業の最後に自発的に commit と push まで実行する
+globs: "**/*"
+alwaysApply: true
 ---
 
 # mentemo logs の push 運用
 
 - **リポジトリ**: `~/Desktop/AI`（mentemo-logs / GitHub 接続済み）
-- **運用**: 施策ログ・議事録・data / logs を更新したら、その作業の最後に **push まで実行する**。
+- **運用**: このリポジトリ内でファイルを追加・編集・削除したら、**その作業の最後に自発的に push まで実行する**。ユーザーに「push した？」と聞かれる前に実行する。
 
 ## 手順
 
 1. 変更を加えたら `cd ~/Desktop/AI` でリポジトリに移動
-2. `git add .` → `git status` で変更確認
+2. `git add -A`（または必要なファイルのみ）→ `git status` で変更確認
 3. `git commit -m "内容に合った短いメッセージ"` でコミット
 4. `git push` でリモートに反映
 
-※ 編集しているのが `/Users/user/AI/ピッカーズ` の場合は、先に Desktop/AI 側へ反映（コピーまたは同一内容を編集）してから上記を実行する。
+※ 編集しているのが `/Users/user/AI`（ワークスペースルート）の場合は、`~/Desktop/AI` と同一であればそのまま上記を実行。別パスの場合は Desktop/AI 側へ反映してから実行する。
