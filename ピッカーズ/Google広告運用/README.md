@@ -6,8 +6,10 @@ Google広告のキャンペーン別数値を **Googleスプレッドシート**
 
 | ファイル／フォルダ | 内容 |
 |--------------------|------|
-| **config/campaigns_sheets.json** | キャンペーンID・スプレッドシートIDの対応 |
-| **script/** | GAS用スクリプト（レポート→スプシ出力） |
+| **config/campaigns_sheets.json** | キャンペーンID・スプレッドシートIDの対応（南関東3キャンペーン） |
+| **config/会社別_sheet_雛形.json** | 会社別スプシ設定の雛形（コピーしてID・LTIDを埋める） |
+| **script/exportGLToSheet_雛形.gs** | GL→スプシ1社用のGAS雛形（定数だけ差し替えて使う） |
+| **script/exportCampaignReportToSheet.gs** | 複数キャンペーン一括出力（南関東用） |
 
 ## IDの意味
 
@@ -25,6 +27,12 @@ Google広告のキャンペーン別数値を **Googleスプレッドシート**
 - **LT00177** 市原（コーティング）
 
 レポート項目: `segments.date`, `impressions`, `clicks`, `cost_micros`, `conversions`（シート名 `_RAW_`）。
+
+## 雛形の使い方（会社別 GL→スプシ）
+
+1. **config/会社別_sheet_雛形.json** をコピーし、会社名・LTID・スプレッドシートID・エリア・商材を埋めて保存（例: `config/清亀石油_sheet.json`）。
+2. **script/exportGLToSheet_雛形.gs** を開き、先頭の定数（`CAMPAIGN_ID`, `SPREADSHEET_ID`, `STARTED_AT`, `SHEET_NAME`）を同じ内容に差し替える。
+3. Google広告のスクリプト画面に貼り付け、`main` を実行。
 
 ## 関連
 
